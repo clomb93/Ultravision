@@ -6,25 +6,35 @@
 */
 
 body {
-  /* Default font family and font color */
+  font-family:'Poppins', sans-serif;
 }
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
-
-
-
-h1 {
-   /* Default font, size, and margins */
+h1.titre1 {
+  font-family:'Poppins', sans-serif;
+  font-size: 88px;
+  color: white;
+  text-align: center;
+  background-color: #fcce00;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
 }
-
-h2 {
-  /* Default font, size, and margins */
+h2.titre2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-color:#ff6b00;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
-
-h3 {
-  /* Default font, size, and margins */
+h3.titre-rouge {
+  text-align: center;
+  color:#e02020;
+  background-color:#e02020;
 }
 
 h4 {
