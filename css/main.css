@@ -59,58 +59,47 @@ h2.titre2 {
   text-align:center;
   margin-bottom: 20px;
   margin-top: 40px;
-  text-transform: uppercase;
  
+}
+
+.bloc {
+  display: flex;
+}
+
+.bloc-1,
+.bloc-1-illu {
+  flex-basis: 320px;
+  flex-grow: 1;
+
 }
 
 .bloc-1 {
- 
- 
+  padding-top: 0;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
 }
 
-.weput {
-  font-family:'Poppins', sans-serif;
-  font-size: 24px;
-  height: 33px;
-  color: black;
-  text-align:left;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  text-transform: uppercase;
-
+.bloc-1-titre {
+ font-size: 24px;
+ font-weight: 700;
 }
-.weput-sub {
-  font-family:'Poppins';
+.bloc-1-description {
   font-size: 16px;
-  height: 345px;
-  color: black;
-  text-align:left;
-  margin-bottom: 20px;
-  margin-top: 40px;
- text-align: center;
+  text-align: justify;
 }
 
-
-a {
-  /* Link color */
+.bloc-1-illu {
+  background-image: url(../img/bg-yellow.png);
+  background-position: right bottom;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+.bloc-1-image {
+  display: block;
+  max-width: 70%;
 
-a:hover {
-  /* Link color on mouse over */
-}
+} 
 
-
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
