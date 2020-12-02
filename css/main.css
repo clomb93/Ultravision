@@ -108,12 +108,14 @@ h2.titre2 {
   color: #fcce00 ;
   font-size: 20px;
   font-weight: 700;
-  text-align: right;
+  text-align: center;
   padding-top: 0;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  padding-left: 32px;
-  
+  padding-right: 10px 10px;
+  border-radius: 15px;
+  border: solid 4px #fcce00;
+  display: block;
+  max-width: 200px
+  ;
 }
 
 .bloc-1-illu {
@@ -181,11 +183,13 @@ h2.titre2 {
   color: #ff6b00 ;
   font-size: 20px;
   font-weight: 700;
-  text-align: right;
+  text-align: center;
   padding-top: 0;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  padding-left: 32px;
+  padding-right: 10px 10px;
+  border-radius: 15px;
+  border: solid 4px #ff6b00;
+  display: block;
+  max-width: 200px
   
 }
 
@@ -251,21 +255,27 @@ h2.titre2 {
   display: block;
 }
 .learn-more-rectangle {
-  color:#ffffff ;
+  color: white;
   font-size: 20px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   padding-top: 0;
-  padding-right: 32px;
-  padding-bottom: 0;
-  padding-left: 32px;
-  
+  padding-right: 10px 10px;
+  border-radius: 15px;
+  border: solid 4px white;
+  display: block;
+  max-width: 200px
 }
 
 .rectange-1-illu, .rectangle1 {
 background-image: url(../img/bg-red.png);
-margin-left: auto 100%;
-margin-right: auto 100%;
+display: flex;
+background-position: left bottom;
+background-size: auto 100%;
+width: auto 100%;
+justify-content: left end;
+margin-left: auto;
+margin-right: auto ;
 }
 .rectangle-1-image {
   display: block;
@@ -319,20 +329,27 @@ margin-right: auto 100%;
   display: block;
 }
 .learn-more-rectangle2 {
-  color:#ffffff ;
+  color: white;
   font-size: 20px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   padding-top: 0;
-  padding-right: 32px;
-  padding-bottom: 0;
-  padding-left: 32px;
+  padding-right: 10px 10px;
+  border-radius: 15px;
+  border: solid 4px white;
+  display: block;
+  max-width: 200px
   
 }
 .rectange-2-illu, .rectangle2 {
 background-image: url(../img/bg-violet.png);
-margin-left: auto 100%;
-margin-right: auto 100%;
+display: flex;
+background-position: left bottom;
+background-size: auto 100%;
+width: auto 100%;
+justify-content: left end;
+margin-left: auto;
+margin-right: auto ;
 }
 .rectangle-2-image {
   display: block;
@@ -386,21 +403,26 @@ margin-right: auto 100%;
   display: block;
 }
   .learn-more-rectangle3 {
-    color:#ffffff ;
+    color: white;
     font-size: 20px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     padding-top: 0;
-    padding-right: 32px;
-    pading-bottom: 0;
-    padding-left: 32px;
+    padding-right: 10px 10px;
+    border-radius: 15px;
+    border: solid 4px white;
+    display: block;
+    max-width: 200px
 }
 .rectange-3-illu, .rectangle3 {
 background-image: url(../img/bg-blue.png);
-margin-left: auto 100%;
-margin-right: auto 100%;
-padding-top: 5px;
-padding-bottom: 5px;
+display: flex;
+background-position: left bottom;
+background-size: auto 100%;
+width: auto 100%;
+justify-content: left end;
+margin-left: auto;
+margin-right: auto ;
 }
 .rectangle-3-image {
   display: block;
